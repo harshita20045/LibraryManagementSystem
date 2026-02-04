@@ -61,19 +61,19 @@ public class Main {
         System.out.println("\n╔════════════════════════════════════════╗");
         System.out.println("║   LIBRARY MANAGEMENT SYSTEM - MENU     ║");
         System.out.println("╚════════════════════════════════════════╝");
-        System.out.println("1. 📖 Add Book");
-        System.out.println("2. 📚 View All Books");
-        System.out.println("3. 👤 Register Member");
-        System.out.println("4. 👥 View All Members");
-        System.out.println("5. 📤 Borrow Book");
-        System.out.println("6. 📥 Return Book");
-        System.out.println("7. 🚪 Exit");
+        System.out.println("1.  Add Book");
+        System.out.println("2.  View All Books");
+        System.out.println("3.  Register Member");
+        System.out.println("4.  View All Members");
+        System.out.println("5.  Borrow Book");
+        System.out.println("6.  Return Book");
+        System.out.println("7.  Exit");
         System.out.println("════════════════════════════════════════");
     }
     
 
     private static void addBook(Library library, Scanner scanner) {
-        System.out.println("📖 ===== ADD NEW BOOK =====");
+        System.out.println("===== ADD NEW BOOK =====");
         
         System.out.print("Enter Book ID: ");
         int id = scanner.nextInt();
@@ -91,7 +91,7 @@ public class Main {
     
   
     private static void registerMember(Library library, Scanner scanner) {
-        System.out.println("👤 ===== REGISTER NEW MEMBER =====");
+        System.out.println(" ===== REGISTER NEW MEMBER =====");
         
         System.out.print("Enter Member ID: ");
         int id = scanner.nextInt();
@@ -105,7 +105,7 @@ public class Main {
     }
 
     private static void borrowBook(Library library, Scanner scanner) {
-        System.out.println("📤 ===== BORROW BOOK =====");
+        System.out.println(" ===== BORROW BOOK =====");
         
         System.out.print("Enter Member ID: ");
         int memberId = scanner.nextInt();
