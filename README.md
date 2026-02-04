@@ -41,19 +41,27 @@ Requirements
 Build & Run
 
 Clone the repository
-```bash git clone https://github.com/harshita20045/LibraryManagementSystem.git```
+```console
+git clone https://github.com/harshita20045/LibraryManagementSystem.git
+```
 
 
 Navigate to project folder
-``` cd LibraryManagementSystem ```
+``` 
+cd LibraryManagementSystem
+```
 
 
 Compile all .java files
-``` javac *.java ```
+``` 
+javac *.java
+```
 
 
 Run the program
+```
 java Main
+```
 
 💡 How It Works
 
